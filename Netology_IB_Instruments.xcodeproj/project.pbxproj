@@ -13,6 +13,10 @@
 		FAEAEF6327AEECA600E10AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEF6127AEECA600E10AE9 /* Main.storyboard */; };
 		FAEAEF6527AEECAC00E10AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEF6427AEECAC00E10AE9 /* Assets.xcassets */; };
 		FAEAEF6827AEECAC00E10AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEF6627AEECAC00E10AE9 /* LaunchScreen.storyboard */; };
+		FAEAEF7027AEF42A00E10AE9 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEF6F27AEF42A00E10AE9 /* ProfileView.xib */; };
+		FAEAEF7327AEF60400E10AE9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEF7227AEF60400E10AE9 /* ProfileView.swift */; };
+		FAEAEF7527AEF71000E10AE9 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEF7427AEF71000E10AE9 /* Profile.storyboard */; };
+		FAEAEF7727AEF7A200E10AE9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEF7627AEF7A200E10AE9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FAEAEF6427AEECAC00E10AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEAEF6727AEECAC00E10AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEAEF6927AEECAC00E10AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEAEF6F27AEF42A00E10AE9 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		FAEAEF7227AEF60400E10AE9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FAEAEF7427AEF71000E10AE9 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FAEAEF7627AEF7A200E10AE9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				FAEAEF6427AEECAC00E10AE9 /* Assets.xcassets */,
 				FAEAEF6627AEECAC00E10AE9 /* LaunchScreen.storyboard */,
 				FAEAEF6927AEECAC00E10AE9 /* Info.plist */,
+				FAEAEF6F27AEF42A00E10AE9 /* ProfileView.xib */,
+				FAEAEF7227AEF60400E10AE9 /* ProfileView.swift */,
+				FAEAEF7427AEF71000E10AE9 /* Profile.storyboard */,
+				FAEAEF7627AEF7A200E10AE9 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEAEF7027AEF42A00E10AE9 /* ProfileView.xib in Resources */,
 				FAEAEF6827AEECAC00E10AE9 /* LaunchScreen.storyboard in Resources */,
+				FAEAEF7527AEF71000E10AE9 /* Profile.storyboard in Resources */,
 				FAEAEF6527AEECAC00E10AE9 /* Assets.xcassets in Resources */,
 				FAEAEF6327AEECA600E10AE9 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEAEF7327AEF60400E10AE9 /* ProfileView.swift in Sources */,
 				FAEAEF6027AEECA600E10AE9 /* ViewController.swift in Sources */,
+				FAEAEF7727AEF7A200E10AE9 /* ProfileViewController.swift in Sources */,
 				FAEAEF5C27AEECA600E10AE9 /* AppDelegate.swift in Sources */,
 				FAEAEF5E27AEECA600E10AE9 /* SceneDelegate.swift in Sources */,
 			);
@@ -305,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
