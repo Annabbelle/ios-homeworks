@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Netology_IB_Instruments
+//  Navigation_
 //
-//  Created by MacBook on 05.02.2022.
+//  Created by MacBook on 02.03.2022.
 //
 
 import UIKit
